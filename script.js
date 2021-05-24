@@ -6,7 +6,9 @@ function getApi() {
 	let foodName = document.getElementById("phrase").value;
 	let parameter = document.getElementById("fields").value;
 	let answrField = document.getElementById("responseApi");
-	
+	let parameterField = parameter;
+	parameterField = parameterField.replace(/^"(.*)"$/, '$1');
+	console.log(parameterField)
     if (request == true) {
 		let settings = {
 			"async": true,
