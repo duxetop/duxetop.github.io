@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+    color: black;
+    width: 800px;
+    margin: auto;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+}
+
+#phrase {
+ width: 370px;
+}
+
+#fields {
+    width: 460px;
+}

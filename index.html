@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>API test</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<h1>API TEST</h1>
+
+	<hr>
+
+	<div>
+		<p>
+			<label>Food Name:</label>
+			<input type="text" id="phrase" placeholder="Example: Cheese OR Cheddar%20Cheese">
+		</p>
+
+		<p>
+			<label>Parameters:</label>
+			<input type="text" id="fields" placeholder="Example: item_name OR item_name%2Cbrand_name">
+		</p>
+		<p>
+			<input type="button" value="Search" id="btn">
+		</p>
+		<p>
+			Here's how to use this:
+			<br>
+			<b>1:</b>
+			For one word food items you can enter them into the input field as is. If the product being searched for is more than one word follow this example:
+			<b>Cheddar%20Cheese</b>
+			<br>
+			Between two words you <b>must</b> add the %20 or else you wont get any results back.
+			<br>
+			<br>
+			<b>2:</b>
+			The same rule stated above applies to multiple parameters, but, the <b>%20</b> changes to <b>%2C</b>. You can choose parameters from the following list:
+			<br>
+			<b>item_name, item_id, brand_name</b>
+		</p>
+		<hr>
+		<div id="responseApi"></div>
+	</div>
+
+	<hr>
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
