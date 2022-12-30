@@ -16,8 +16,8 @@ function getApi() {
 			"url": "https://nutritionix-api.p.rapidapi.com/v1_1/search/" + foodName + "?fields=" + parameter,
 			"method": "GET",
 			"headers": {
-				"x-rapidapi-key": "1661ca73b7mshbf37585e5b7fe43p140a04jsnbf8755f744f7",
-				"x-rapidapi-host": "nutritionix-api.p.rapidapi.com"
+				"X-RapidAPI-Key": "1661ca73b7mshbf37585e5b7fe43p140a04jsnbf8755f744f7",
+				"X-RapidAPI-Host": "nutritionix-api.p.rapidapi.com"
 			}
 	
 		};
