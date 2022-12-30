@@ -36,8 +36,8 @@ function getApi() {
 	
 	
 	
-			// console.log(response.hits[]);
-			// answrField.innerHTML = response; 
+			console.log(response.hits[]);
+			answrField.innerHTML = response; 
 		});
 	}
 	
